@@ -1,0 +1,168 @@
+body{
+    color: #fff;
+	
+}
+/* .navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+} */
+
+#home-section {
+    background-image: url('http://localhost/TravelSq/resource/blogs/img/blog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px; 
+}
+
+
+
+/* #home-section .dark-overlay{
+    position: absolute;
+    left:0;
+    top:0;  
+    width: 100%;
+    min-height: 400px;
+    background: rgba(0,0,0,0.7);
+} */
+
+#home-section .home-inner{
+    padding-top: 150px;
+}
+
+#home-section .fa{
+    background-color: #fff;
+    color: #008ed6;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.bg-white{
+    background-color: #fff;
+    padding: 25px;
+    margin-top: 45px;
+    width: 850px;
+}
+.bg-darklight{
+    background-color: rgba(0, 0, 0, 0.061);
+}
+.text-size{
+    font-size: 68px;
+}
+.orange{
+    background-color: orange;
+    color: #fff;
+}
+.black{
+    background-color: black;
+    color: #fff;
+}
+
+.light-green{
+    color: #00d6cb;
+}
+.light-blue{
+    color: #008ed6;
+}
+
+@media(max-width: 567px){
+    .slick-img{
+        height: 100px;
+        width: 350px;
+    }
+    .slick-slide {
+        margin: 0px 0px;
+      }
+      .slick-reg-img{
+          width: 450px;
+          height: 150px;
+          border-radius: 15px;
+      }
+}
+
+.slick-reg-img{
+    border-radius: 5px;
+}
+
+.square-img{
+    height: 400px;
+    border-radius: 5px;
+}
+
+.flex-img{
+    border-radius: 5px;
+    height: 195px;
+    width: 250px;
+}
+
+#video-section{
+    position: relative;
+    background-image: url('http://localhost/TravelSq/resource/blogs/img/the-travel-square-banner.png');
+    background-repeat: no-repeat;
+    min-height: 400px;
+    text-align: center;
+    color: #fff;
+    background-attachment: fixed;
+    background-position: 0 -300px;
+}
+#video-section a{
+    color: #fff;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+  }
+  .overlay-text {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay-para {
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay-button{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .hght{
+      height: 350px;
+      width: 100%;
+  }
+  .gold{
+      color: goldenrod;
+  }
+  .small{
+      font-size: 12px;
+  }
+  .bg-black{
+      background-color: #000;;
+  }
+  .nav-link{
+      color: #fff;
+  }
+  .nav-link:hover{
+    color: #fff;
+}
